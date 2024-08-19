@@ -47,7 +47,7 @@ The `ManagerDelegate` class demonstrates how to use the wrapper classes to manag
 
 ```csharp
 var manager = new Managers.ManagerDelegate();
-manager.EnableBulletFromPool.Register(MyActionMethod);
+manager.Example.Register(MyActionMethod);
 ```
 
 ### Files Overview
@@ -61,7 +61,7 @@ manager.EnableBulletFromPool.Register(MyActionMethod);
 ```csharp
 // Example usage in a Manager class
 var manager = new Managers.ManagerDelegate();
-manager.EnableBulletFromPool.Register((arg1, arg2) => {
-    // Handle bullet enablement logic
+manager.Example.Register((arg1, arg2) => {
+    //Method
 });
 ```
